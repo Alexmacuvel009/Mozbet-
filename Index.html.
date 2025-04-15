@@ -3,41 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="MozBet - A tua casa de apostas desportivas e Aviator. Seguro, rápido e licenciado." />
-  <title>MozBet - Apostas Desportivas</title>
+  <title>MozBet - Apostas Online</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
-    <h1>MozBet</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Apostas</a></li>
-        <li><a href="#">Aviator</a></li>
-        <li><a href="#">Promoções</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
+    <h1>Bem-vindo à MozBet</h1>
+    <p>A tua plataforma de apostas desportivas e Aviator!</p>
   </header>
 
-  <section class="hero">
-    <h2>Aposta e ganha com a MozBet!</h2>
-    <p>Junta-te a milhares de jogadores. Aposta mínima de 10MT. Levantamentos rápidos via eMola, M-Pesa e mKesh.</p>
-    <a href="#" class="btn">Começar a Apostar</a>
-  </section>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Apostas</a>
+    <a href="#">Aviator</a>
+    <a href="#">Suporte</a>
+    <a href="#">Conta</a>
+  </nav>
 
-  <section class="info">
-    <h3>Suporte 24h/7</h3>
-    <p>Fala conosco: <br>
-    WhatsApp: <strong>+258 82 509 1893</strong><br>
-    Email: <strong>mozbetapostas@gmail.com</strong><br>
-    Técnico Responsável: <strong>Alex Macuvel</strong>
-    </p>
-  </section>
+  <main>
+    <h2>Jackpot Semanal</h2>
+    <p>Participe no Jackpot semanal com prémio inicial de 5.000MT. Aposta mínima: 20MT</p>
+    <button class="button">Participar Agora</button>
+
+    <h2>Promoção Milionária</h2>
+    <p>Aproveite a nossa oferta promocional com prémio até 1.000.000MT!</p>
+
+    <h2>Formas de Pagamento</h2>
+    <ul>
+      <li>M-Pesa</li>
+      <li>eMola</li>
+      <li>mKesh</li>
+      <li>OneVoucher</li>
+      <li>Visa / Mastercard</li>
+      <li>PayPal, Skrill, Neteller</li>
+      <li>Bitcoin, USDT</li>
+    </ul>
+  </main>
 
   <footer>
-    <p>MozBet é licenciada pela Casa de Jogos de Moçambique. Todos os direitos reservados © 2025</p>
+    <p>Suporte: +258 825091893 | mozbetapostas@gmail.com</p>
+    <p>Técnico: Alex Macuvel</p>
+    <p>Licenciado pela Casa de Jogos de Moçambique</p>
   </footer>
+
 </body>
 </html>
