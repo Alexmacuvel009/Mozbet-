@@ -1,0 +1,30 @@
+// Mensagem de boas-vindas
+document.addEventListener("DOMContentLoaded", () => {
+  const welcome = document.createElement("div");
+  welcome.textContent = "Bem-vindo ao MozBet! Boa sorte nas suas apostas!";
+  welcome.style.background = "#ffcc00";
+  welcome.style.color = "#003366";
+  welcome.style.padding = "10px";
+  welcome.style.textAlign = "center";
+  welcome.style.fontWeight = "bold";
+  document.body.prepend(welcome);
+
+  // Ocultar a mensagem depois de 5 segundos
+  setTimeout(() => {
+    welcome.remove();
+  }, 5000);
+});
+
+// Validação simples de login (exemplo)
+function validarLogin() {
+  const usuario = document.getElementById("usuario").value;
+  const senha = document.getElementById("senha").value;
+
+  if (usuario === "" || senha === "") {
+    alert("Por favor, preencha todos os campos!");
+    return false;
+  }
+
+  // Lógica de validação pode ser adaptada para backend
+  return true;
+}
